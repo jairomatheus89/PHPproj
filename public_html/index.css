@@ -1,0 +1,43 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:red; 
+    height:97vh;
+
+}
+
+h1{
+    margin-top:50px;
+    font-size:22pt;
+    color:gold;
+    text-shadow: 2px 2px 2px white;
+}
+
+#formzin{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:white;
+    color:red;
+    font-size:16pt;
+    height:1em;
+    gap:50px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 1px black;
+    text-align:center;
+}
+
+#butzin{
+    background-color:red;
+    font-size:25px;
+    border-radius: 20px;
+    color:yellow;
+}
+
+#butzin:hover{
+    cursor:pointer;
+    background-color: rgb(44, 53, 172);
+    color:white;
+}
+
